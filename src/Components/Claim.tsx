@@ -12,26 +12,31 @@ export const Claim: React.FC = () => {
     return (
         <div className="claim">
             {
-                text ?
+                text &&
+                <div>
                     <div>
-                        <div>
-                            {
-                                urlReg.test(text) ?
+                        {
+                            urlReg.test(text) ?
+                                <div>
                                     <a href={text}>
                                         <Button variant="primary">リンク</Button>
-                                    </a> :
-                                    text
-                            }
-                        </div>
-                        <div className="m-5"><QRCode value={text} /></div>
-                    </div> :
-                    <div>
-                        <Link to="/create">
-                            <Button variant="primary">QR付きページを作成する</Button>
-                        </Link>
+                                    </a>
+                                    <div className="m-5">
+                                        <QRCode value={text} />
+                                    </div>
+                                </div> :
+                                text
+                        }
                     </div>
+                </div>
             }
+            <div className="mt-2">
+                <Link to="/create">
+                    <Button variant="primary">メッセージ付きページを作成する</Button>
+                </Link>
+            </div>
         </div>
+
     );
 }
 

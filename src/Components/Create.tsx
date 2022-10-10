@@ -9,6 +9,7 @@ export const Create: React.FC = () => {
 
     return (
         <div className="create">
+            URLを入力した場合QRコードとリンクが表示されます。
             <div>
                 <Form.Control
                     type='text' value={qrText} onChange={e => setQrText(e.target.value)}
@@ -16,7 +17,7 @@ export const Create: React.FC = () => {
             </div>
             <div>
                 <a href={"/?text=" + encodeURIComponent(qrText)}>
-                    <Button variant="primary">QR付きページへ移動</Button>
+                    <Button variant="primary">メッセージ付きページへ移動</Button>
                 </a>
             </div>
         </div>
