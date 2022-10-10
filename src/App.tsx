@@ -1,4 +1,3 @@
-import './App.scss';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Create from "./Components/Create";
@@ -7,8 +6,8 @@ import Footer from "./Components/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <div className='m-5 main-topic'>金返して</div>
+    <div className="App text-center">
+      <div className='m-5 fw-bold display-1'>金返して</div>
 
       <BrowserRouter>
         <Routes>
