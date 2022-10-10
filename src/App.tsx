@@ -1,25 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Create from "./Components/Create";
+import Claim from "./Components/Claim";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className='m-5 main-topic'>金返して</div>
+
+      <BrowserRouter>
+        <Routes>
+          <Route path="/create" element={<Create />} />
+          <Route path="/" element={<Claim />} />
+        </Routes>
+      </BrowserRouter>
+
+      <Footer />
+    </div >
   );
 }
 
