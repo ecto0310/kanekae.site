@@ -30,10 +30,15 @@ export const Claim: React.FC = () => {
                     </div>
                 </div>
             }
-            <div className="mt-2">
+            <div className="mt-1">
                 <Link to="/create">
                     <Button variant="primary">メッセージ付きページを作成する</Button>
                 </Link>
+            </div>
+            <div className="mt-1">
+                <a href="/">
+                    <Button variant="primary">メッセージを削除する</Button>
+                </a>
             </div>
         </div>
 
