@@ -31,6 +31,6 @@
     "react-qr-code": "^2.0.11",
     "react-share": "^4.4.1",
     "sass": "^1.57.1",
-    "typescript": "5.1.3"
+    "typescript": "5.2.2"
   }
 }
