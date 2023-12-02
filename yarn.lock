@@ -379,11 +379,11 @@ __metadata:
   linkType: hard
 
 "@types/bootstrap@npm:^5.2.6":
-  version: 5.2.7
-  resolution: "@types/bootstrap@npm:5.2.7"
+  version: 5.2.10
+  resolution: "@types/bootstrap@npm:5.2.10"
   dependencies:
     "@popperjs/core": "npm:^2.9.2"
-  checksum: c601bba3ff28d62f90d89f4688ff824d38ddfd203ead0aff575df4dcc8d9599cd6c7586837866970d813f9e28697c9f41671659ee1970b3068c2a03dbb622906
+  checksum: 3e978855eb780df3907e8fe991371dc661c7a8c5b9852a10e33bcf6a909bc1481857aa8786d18b3aa828fb28660145fda0c8648265719e8a97a448b9f0158eae
   languageName: node
   linkType: hard
 
