@@ -2598,7 +2598,7 @@ __metadata:
     react-bootstrap: "npm:^2.7.0"
     react-dom: "npm:18.2.0"
     react-qr-code: "npm:^2.0.11"
-    react-share: "npm:^4.4.1"
+    react-share: "npm:^5.0.0"
     sass: "npm:^1.57.1"
     typescript: "npm:5.3.2"
   languageName: unknown
@@ -3336,7 +3336,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-share@npm:*, react-share@npm:^4.4.1":
+"react-share@npm:*":
   version: 4.4.1
   resolution: "react-share@npm:4.4.1"
   dependencies:
@@ -3345,6 +3345,18 @@ __metadata:
   peerDependencies:
     react: ^16.3.0 || ^17 || ^18
   checksum: 9670ab18c1b7711a3501c6c8fdf62c596d6ac23137760b5792ef85ce35b6c51f478ab515f148ba47f7a2583ee570fafb317848d4ffe3f9d23b4e02d308079deb
+  languageName: node
+  linkType: hard
+
+"react-share@npm:^5.0.0":
+  version: 5.0.3
+  resolution: "react-share@npm:5.0.3"
+  dependencies:
+    classnames: "npm:^2.3.2"
+    jsonp: "npm:^0.2.1"
+  peerDependencies:
+    react: ^17 || ^18
+  checksum: 80e2b31abca77d0f3167375eb55075d8e9a1488f8e47b07eeed5c53cb788b9d6f2055d0d127dbc347c71cd2464c5e4c787a702b8629e50b004de86580a19c191
   languageName: node
   linkType: hard
 
