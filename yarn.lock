@@ -416,11 +416,11 @@ __metadata:
   linkType: hard
 
 "@types/react-bootstrap@npm:^0.32.32":
-  version: 0.32.33
-  resolution: "@types/react-bootstrap@npm:0.32.33"
+  version: 0.32.35
+  resolution: "@types/react-bootstrap@npm:0.32.35"
   dependencies:
     "@types/react": "npm:*"
-  checksum: 700f0d0947d4f867ce0b2d0e653e860948c1e773836bc62b4a4bbe48ddab7468fda9c40f82f8edbe27dbe254d6920a42ac3c4602ece3d7e4bd3f00ea93427a82
+  checksum: 506e8bc8c9094e6c5d903a5a725e8992ede52928d685d47121cd788a378eb61d5bb0e7f78597104e8c4db2edf631ab5407b5ef3184d04a258013c6e76171b487
   languageName: node
   linkType: hard
 
