@@ -14,7 +14,7 @@
     "@fortawesome/free-brands-svg-icons": "6.7.1",
     "@fortawesome/react-fontawesome": "0.2.2",
     "bootstrap": "5.3.3",
-    "next": "14.2.19",
+    "next": "14.2.20",
     "react": "18.3.1",
     "react-bootstrap": "2.10.6",
     "react-dom": "18.3.1",
@@ -26,7 +26,7 @@
     "@types/react": "18.3.13",
     "@types/react-dom": "18.3.1",
     "eslint": "8.57.1",
-    "eslint-config-next": "14.2.19",
+    "eslint-config-next": "14.2.20",
     "prettier": "^3.2.5",
     "typescript": "5.7.2"
   }
