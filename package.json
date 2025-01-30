@@ -16,7 +16,7 @@
     "bootstrap": "5.3.3",
     "next": "15.1.6",
     "react": "19.0.0",
-    "react-bootstrap": "2.10.8",
+    "react-bootstrap": "2.10.9",
     "react-dom": "19.0.0",
     "react-qr-code": "2.0.15",
     "react-share": "5.1.2"
