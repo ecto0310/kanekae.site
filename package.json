@@ -19,7 +19,7 @@
     "react-bootstrap": "2.10.9",
     "react-dom": "19.0.0",
     "react-qr-code": "2.0.15",
-    "react-share": "5.2.0"
+    "react-share": "5.2.1"
   },
   "devDependencies": {
     "@types/node": "22.13.4",
