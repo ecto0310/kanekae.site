@@ -22,7 +22,7 @@
     "react-share": "5.2.2"
   },
   "devDependencies": {
-    "@types/node": "22.15.17",
+    "@types/node": "22.15.18",
     "@types/react": "19.1.4",
     "@types/react-dom": "19.1.5",
     "eslint": "9.26.0",
